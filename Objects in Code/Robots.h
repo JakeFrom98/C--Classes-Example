@@ -12,8 +12,12 @@ public:
 	// Runs once per object but many times per class
 	Robots();
 	string name;
+
 	void SetNumberOfArms(int numberOfArms);
 	int getNumberOfArms();
+
+	void Setheight(int heightofplayer);
+	int getheight();
 	
 	// Deconstructor this frees up memory
 	~Robots();

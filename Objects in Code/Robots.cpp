@@ -16,6 +16,16 @@ int Robots::getNumberOfArms()
 	return arms;
 }
 
+void Robots::Setheight(int heightofplayer)
+{
+	height = heightofplayer;
+}
+
+int Robots::getheight()
+{
+	return height;
+}
+
 Robots::~Robots()
 {
 }
